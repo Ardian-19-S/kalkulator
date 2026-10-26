@@ -22,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         if ($operasi === "tambah") {
             $hasil = $a + $b;
         } elseif ($operasi === "kurang") {
+            //Fitur Pengurangan
             $hasil = $a - $b;
         }
     }
