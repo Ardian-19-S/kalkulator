@@ -18,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $a = (float) $angka1;
         $b = (float) $angka2;
 
+        //Fitur Penjumlahan
         if ($operasi === "tambah") {
             $hasil = $a + $b;
         } elseif ($operasi === "kurang") {
